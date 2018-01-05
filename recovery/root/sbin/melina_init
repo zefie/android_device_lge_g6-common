@@ -1,0 +1,5 @@
+#!/sbin/ash
+
+if [ ! -d "/dev/block/bootdevice" ]; then
+	ln -s /dev/block/platform/soc/624000.ufshc/ /dev/block/bootdevice
+fi
