@@ -18,6 +18,7 @@ DEVICE_COMMON_PATH := device/lge/g6-common
 
 # inherit from common msm8996
 -include device/lge/msm8996-common/BoardConfigCommon.mk
+-include device/lge/g6-common/twrp.mk
 
 TARGET_SPECIFIC_HEADER_PATH += $(DEVICE_COMMON_PATH)/include
 
