@@ -1,8 +1,4 @@
-# Graphics
-persist.sys.sf.color_saturation=1.1
-
-# HDR
-ro.qcom.hdr.config=/system/vendor/etc/hdr_tm_config.xml
-
-# Wide cam for all
-vendor.camera.aux.packagelist=all
+ro.sf.lcd_density=640
+ro.lge.lcd_default_brightness=149
+ro.hardware.keystore=msm8996
+persist.sys.usb.config=mtp,adb
