@@ -1,5 +1,8 @@
 USE_CAMERA_STUB := true
 
+# Build kernel with uber-toolchain
+TARGET_KERNEL_CROSS_COMPILE_PREFIX := $(ANDROID_BUILD_TOP)/prebuilts/gcc/linux-x86/host/x86_64-uber-6.x/bin/aarch64-linux-android-
+
 TARGET_KERNEL_SOURCE := kernel/lge/msm8996
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_HEADER_ARCH := arm64
