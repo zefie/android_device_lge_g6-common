@@ -60,6 +60,7 @@ TW_SCREEN_BLANK_ON_BOOT := true
 TW_INCLUDE_NTFS_3G := true
 TW_EXCLUDE_SUPERSU := true
 TW_IGNORE_MISC_WIPE_DATA := true
+TW_DEVICE_VERSION := rel_o1-melina
 
 # Encryption support
 TW_INCLUDE_CRYPTO := true
