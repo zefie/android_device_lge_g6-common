@@ -25,7 +25,7 @@ TARGET_BOARD_PLATFORM_GPU := qcom-adreno530
 TARGET_HAS_NO_SELECT_BUTTON := true
 
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
-BOARD_KERNEL_CMDLINE := console=ttyHSL0,115200,n8 androidboot.console=ttyHSL0 user_debug=31 ehci-hcd.park=3 lpm_levels.sleep_disabled=1 cma=32M@0-0xffffffff androidboot.hardware=lucye androidboot.bootdevice=624000.ufshc androidboot.selinux=permissive
+BOARD_KERNEL_CMDLINE := console=ttyHSL0,115200,n8 androidboot.console=ttyHSL0 user_debug=31 ehci-hcd.park=3 lpm_levels.sleep_disabled=1 cma=32M@0-0xffffffff androidboot.hardware=lucye androidboot.bootdevice=624000.ufshc androidboot.selinux=disabled
 BOARD_KERNEL_BASE := 0x80000000
 BOARD_KERNEL_PAGESIZE := 4096
 BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x02200000 --tags_offset 0x00000100
@@ -63,12 +63,11 @@ TW_IGNORE_MISC_WIPE_DATA := true
 TW_DEVICE_VERSION := rel_o1-melina
 
 # Encryption support
-TW_INCLUDE_CRYPTO := true
-TARGET_HW_DISK_ENCRYPTION := true
-TARGET_CRYPTFS_HW_PATH := vendor/qcom/opensource/cryptfs_hw
-TARGET_KEYMASTER_WAIT_FOR_QSEE := true
-
-TW_CRYPTO_USE_SYSTEM_VOLD := qseecomd
+#TW_INCLUDE_CRYPTO := true
+#TARGET_HW_DISK_ENCRYPTION := true
+#TARGET_CRYPTFS_HW_PATH := vendor/qcom/opensource/cryptfs_hw
+#TARGET_KEYMASTER_WAIT_FOR_QSEE := true
+#TW_CRYPTO_USE_SYSTEM_VOLD := qseecom
 
 # Debug flags
 TWRP_INCLUDE_LOGCAT := true
