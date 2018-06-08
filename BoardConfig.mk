@@ -1,4 +1,4 @@
-TW_DEVICE_VERSION := rel_t3-melina
+TW_DEVICE_VERSION := rel_o2-melina
 
 
 USE_CAMERA_STUB := true
