@@ -63,6 +63,7 @@ TW_SCREEN_BLANK_ON_BOOT := true
 TW_INCLUDE_NTFS_3G := true
 TW_EXCLUDE_SUPERSU := true
 TW_IGNORE_MISC_WIPE_DATA := true
+TW_OEM_BUILD := true
 
 # Encryption support
 #TW_INCLUDE_CRYPTO := true
