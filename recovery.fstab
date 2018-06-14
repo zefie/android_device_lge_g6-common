@@ -11,7 +11,7 @@
 #/carrier	ext4	/dev/block/bootdevice/by-name/operatorlogging fsflags=discard
 
 # set /vendor removable so that TWRP does not throw errors for users who are not using treble partition
-/vendor		ext4	/dev/block/bootdevice/by-name/vendor     flags=backup=1;fsflags=discard;wipeingui;removable
+#/vendor		ext4	/dev/block/bootdevice/by-name/vendor     flags=backup=1;fsflags=discard;wipeingui;removable
 
 # /misc is disabled because ORS commands to factory reset on boot key combo
 /misc		emmc	/dev/block/bootdevice/by-name/misc
