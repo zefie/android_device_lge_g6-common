@@ -1,4 +1,4 @@
-TW_DEVICE_VERSION := rel_o3-TEST002-melina
+TW_DEVICE_VERSION := rel_o3-TEST003-melina
 
 
 USE_CAMERA_STUB := true
