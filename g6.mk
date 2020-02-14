@@ -67,3 +67,9 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.hardware.lights=h870_sys
+
+# FM Radio
+PRODUCT_PACKAGES += \
+    FM2 \
+    libqcomfm_jni \
+    qcom.fmradio
