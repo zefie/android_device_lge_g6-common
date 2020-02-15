@@ -43,5 +43,8 @@ BOARD_SEPOLICY_DIRS += $(DEVICE_COMMON_PATH)/sepolicy
 # Treble
 #PRODUCT_SHIPPING_API_LEVEL := 24
 
+# FM Radio
+BOARD_HAVE_QCOM_FM := true
+
 # inherit from the proprietary version
 -include vendor/lge/g6-common/BoardConfigVendor.mk
