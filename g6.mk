@@ -70,6 +70,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # FM Radio
 PRODUCT_PACKAGES += \
-    FMRadio \
+    FM2 \
     libqcomfm_jni \
     qcom.fmradio
