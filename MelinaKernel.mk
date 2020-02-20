@@ -8,7 +8,8 @@ ifneq ($(filter h870 h872 us997 h870ds,$(TARGET_DEVICE)),)
     TARGET_KERNEL_CLANG_VERSION := r349610
 
     BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
-    TARGET_KERNEL_ADDITIONAL_CONFIG := melina_common_lineageos_subconfig
+    TARGET_KERNEL_ADDITIONAL_CONFIG := melina_lineageos_subconfig
+#    TARGET_KERNEL_ADDITIONAL_CONFIG := melina_lineageos_debug_subconfig
     # If ubertc exists where we expect it
     ifneq ($(wildcard $(PWD)/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.x-ubertc/bin),)
       # Then use it
