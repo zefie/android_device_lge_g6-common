@@ -2283,7 +2283,7 @@
     <path name="headset-mic">
         <path name="adc2" />
         <ctl name="ADC2 Volume" value="12" />
-        <ctl name="DEC0 Volume" value="84" />
+        <ctl name="DEC0 Volume" value="109" />
     </path>
 
     <path name="headset-mic-liquid">
